@@ -25,26 +25,38 @@ It launches Chromium, searches eBay for the keyword **"kvm displayport"**, scrol
 ## Installation
 
 ### 1. Clone or extract the folder
+
 ```
 git clone https://github.com/<your-username>/Robot.git
 cd Robot
+
 ```
 
 ### 2. Create a virtual environment
+
+```
 python -m venv venv
 source venv/bin/activate   # Ubuntu 24.04 / Linux
 
+```
+
 
 ### 3. Install dependencies
+
+```
 pip install -r requirements.txt
 playwright install
+
+```
 
 ---
 
 ## Running the Program
 
 ### 1. Run the script from inside the Robot directory:
+```
 python main.py
+```
 
 ### 2. The script will open Chromium, navigate to eBay, and display something like:
 
