@@ -21,16 +21,19 @@ It launches Chromium, searches eBay for the keyword **"kvm displayport"**, scrol
 - Internet connection (Playwright downloads the browser)
 
 ---
-
+```
 ## Installation
 
 ### 1. Clone or extract the folder
+```
 git clone https://github.com/<your-username>/Robot.git
 cd Robot
 
+
 ### 2. Create a virtual environment
 python -m venv venv
-source venv/bin/activate     # Linux
+source venv/bin/activate   # Ubuntu 24.04 / Linux
+
 
 ### 3. Install dependencies
 pip install -r requirements.txt
