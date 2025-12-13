@@ -28,7 +28,7 @@ It launches Chromium, searches eBay for the keyword **"kvm displayport"**, scrol
 
 ```
 git clone https://github.com/ned777/robot_Project.git
-cd Robot
+cd robot_Project
 
 ```
 
