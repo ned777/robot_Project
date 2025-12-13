@@ -27,7 +27,7 @@ It launches Chromium, searches eBay for the keyword **"kvm displayport"**, scrol
 ### 1. Clone or extract the folder
 
 ```
-git clone https://github.com/<your-username>/Robot.git
+git clone https://github.com/ned777/Robot.git
 cd Robot
 
 ```
