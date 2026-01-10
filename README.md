@@ -1,5 +1,10 @@
 # Robot — eBay Product Title Scraper (Playwright, Python 3.14, Ubuntu 24.04)
 
+[![Python](https://img.shields.io/badge/Python-3.14-blue.svg)](https://www.python.org/)
+[![Playwright](https://img.shields.io/badge/Playwright-1.47.0-45ba4b.svg)](https://playwright.dev/)
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-E95420?style=flat&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
+
+
 ## Overview
 This project demonstrates browser automation using **Playwright** with **Python 3.14**.  
 It launches Chromium, searches eBay for the keyword **"kvm displayport"**, scrolls to trigger lazy-loaded results, and prints the first valid product title (skipping sponsored listings).
